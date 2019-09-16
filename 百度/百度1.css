@@ -1,6 +1,10 @@
 @charset 'utf-8';
 
 /* CSS Document */
+body {
+  overflow: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +17,8 @@ body {
 
 .A1 {
   height: 32px;
+
+  border-bottom: 1px solid #f0f0f0;
 }
 
 .a1 {
@@ -74,6 +80,66 @@ body {
   text-align: center;
 }
 
+.none {
+  display: none;
+}
+
+.play {
+  position: absolute;
+  top: 33px;
+  right: 0;
+
+  width: 67.5px;
+  height: 1700px;
+
+  border-left: 1px solid #e7e7e7;
+  background: #f9f9f9;
+  ;
+}
+
+.none_img {
+  width: 36px;
+  height: 36px;
+}
+
+.play_chanpin {
+  font-size: 12px;
+  line-height: 30px;
+
+  height: 30px;
+
+  text-align: center;
+
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.play_li {
+  width: 67.5px;
+}
+
+.play_div > a {
+  text-decoration: none;
+
+  color: darkgray;
+}
+
+.play_div {
+  font-size: 14px;
+  line-height: 30px;
+
+  display: block;
+  overflow: hidden;
+
+  width: 67.5px;
+  height: 75px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+  text-align: center;
+
+  border-bottom: 1px solid #f0f0f0;
+}
+
 .a4 {
   position: absolute;
   right: 0;
@@ -96,7 +162,6 @@ body {
 
 .a7 {
   width: 100%;
-
   height: 60px;
 
   text-align: center;
@@ -120,13 +185,14 @@ body {
 }
 
 .b1 {
+  width: 67.5px;
   height: 32px;
   padding-right: 7px;
   padding-left: 7px;
 
   color: white;
   border: none;
-  background-color: #398bfb;
+  background: #398bfb;
 }
 
 .b2 {

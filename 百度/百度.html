@@ -1,63 +1,127 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>百度一下，你就知道</title>
-		<link href="百度1.css" rel="stylesheet" type="text/css" />
-	</head>
-	<body>
-		<div class="A1">
-			<div class="a1" >
-				<a id="bt" href="http://news.baidu.com/" class="nav1">新闻</a>
-				<a id="bt" href="https://www.hao123.com/" class="nav1">hao123</a>
-				<a id="bt" href="https://map.baidu.com/" class="nav1">地图</a>
-				<a id="bt" href="http://v.baidu.com/" class="nav1">视频</a>
-				<a id="bt" href="https://tieba.baidu.com/index.html" class="nav1">贴吧</a>
-				<a id="bt" href="http://xueshu.baidu.com/" class="nav1">学术</a>
-				<a id="bt" href="#" class="nav">登录</a>
-				<a id="bt" href="#" class="nav">设置</a>
-			</div>
-			<div class="a2">
-				<input type="button" value="更多产品" class="b1" />
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>百度一下，你就知道</title>
+	<link href="百度1.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="A1">
+		<div class="a1">
+			<a id="bt" href="http://news.baidu.com/" class="nav1">新闻</a>
+			<a id="bt" href="https://www.hao123.com/" class="nav1">hao123</a>
+			<a id="bt" href="https://map.baidu.com/" class="nav1">地图</a>
+			<a id="bt" href="http://v.baidu.com/" class="nav1">视频</a>
+			<a id="bt" href="https://tieba.baidu.com/index.html" class="nav1">贴吧</a>
+			<a id="bt" href="http://xueshu.baidu.com/" class="nav1">学术</a>
+			<a id="bt" href="#" class="nav">登录</a>
+			<a id="bt" href="#" class="nav">设置</a>
+		</div>
+		<div class="a2">
+			<input id="chanpin" type="button" value="更多产品" class="b1"  onmousemove="leibiaoxianshi()" onmouseout="leibiaoyicang()"/>
+		</div>
+		<div class="none" id="play">
+			<div class="play_li">
+
+				<div class="play_div">
+					<a href="#">
+						<img src="bdbri_72.png" class="none_img">
+						<p>糯米</p>
+					</a>
+				</div>
+
+				<div class="play_div">
+					<a href="#">
+						<img src="qqyy.png" class="none_img" />
+						<p>音乐</p>
+					</a>
+				</div>
+
+				<div class="play_div">
+					<a href="#">
+						<img src="image_72.png" class="none_img" />
+						<p>图片</p>
+					</a>
+				</div>
+
+				<div class="play_div">
+					<a href="#">
+						<img src="zhidao_72.png" class="none_img" />
+						<p>知道</p>
+					</a>
+				</div>
+
+				<div class="play_div">
+					<a href="#">
+						<img src="wenku_72.png" class="none_img" />
+						<p>文库</p>
+					</a>
+				</div>
+
+				<div class="play_div">
+					<a href="#">
+						<img src="bang_72.png" class="none_img" />
+						<p>风云榜</p>
+					</a>
+				</div>
 			</div>
 		</div>
-		<div class="a3">
-			<img src="捕获.PNG" width="270px" height="129px">
-			<div class="a4">
-				<form>
-					<div class="a5">
-						<input type="text" class="b2" />
-					</div>
-					<div class="a6">
-						<input type="submit" class="b3" value="百度一下" />
-					</div>
-				</form>
-			</div>
-			</div>
-			<div class="a9">
-			<div class="a7">
-				<img src="1.PNG">
-			</div>
-			<div class="a8">
-				<p>
-					<a id="bt2" href="#">把百度设为主页</a>
-					&ensp;&ensp;&ensp;
-					<a id="bt2" href="#">关于百度</a>
-					&ensp;&ensp;&ensp;
-					<a id="bt2" href="#">About&ensp;Baidu</a>
-					&ensp;&ensp;&ensp;
-					<a id="bt2" href="#">百度推广</a>
-				</p>
-				<p>
-					©2019 Baidu
-					<a id="bt2" href="#">使用百度前必读</a>
-					<a id="bt2" href="#">意见反馈</a> 京ICP证030173号
-					<img src="icons_5859e57.png" height="17" width="17">
-					&ensp;
-					<a id="bt2" href="#">京公网安备11000002000001号</a>
-					<img src="警徽.PNG">
-				</p>
-			</div>
-			</div>
-	</body>
+	</div>
+	<div class="a3">
+		<img src="捕获.PNG" width="270px" height="129px">
+		<div class="a4">
+			<form>
+				<div class="a5">
+					<input type="text" class="b2" />
+				</div>
+				<div class="a6">
+					<input type="submit" class="b3" value="百度一下" />
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="a9">
+		<div class="a7">
+			<img src="1.PNG">
+		</div>
+		<div class="a8">
+			<p>
+				<a id="bt2" href="#">把百度设为主页</a>
+				&ensp;&ensp;&ensp;
+				<a id="bt2" href="#">关于百度</a>
+				&ensp;&ensp;&ensp;
+				<a id="bt2" href="#">About&ensp;Baidu</a>
+				&ensp;&ensp;&ensp;
+				<a id="bt2" href="#">百度推广</a>
+			</p>
+			<p>
+				©2019 Baidu
+				<a id="bt2" href="#">使用百度前必读</a>
+				<a id="bt2" href="#">意见反馈</a> 京ICP证030173号
+				<img src="icons_5859e57.png" height="17" width="17">
+				&ensp;
+				<a id="bt2" href="#">京公网安备11000002000001号</a>
+				<img src="警徽.PNG">
+			</p>
+		</div>
+	</div>
+	<script>
+		var anniu = document.getElementById("chanpin");
+		var play = document.getElementById("play");
+		function leibiaoxianshi(){
+			play.className = "play";
+			anniu.style.background = "#fff";
+			anniu.style.color = "#000";
+		}
+		function leibiaoyicang(){
+			anniu.style.background = "#398bfb";
+			play.className="none";
+			anniu.style.color = "#fff";
+		}
+	</script>
+</body>
+
 </html>
